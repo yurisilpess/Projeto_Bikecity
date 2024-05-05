@@ -1,0 +1,348 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin-top: 20px;
+  font-size: 24px;
+  font-style: italic;
+  font-family: "Barlow", sans-serif;
+}
+li{
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  margin-top: -5px;
+  padding: 10px;
+}
+#menu-header{
+  z-index: 2;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #62717e ;
+  color: 
+
+/*cores que estou pensando*/
+rgb(117, 141, 160) /*background*/
+#5F85BA
+rgb(34, 50, 75) /*header*/
+#062d50
+rgb(55, 17, 77) /*background*/
+whitesmoke /*header*/
+
+white /*background*/
+whitesmoke /*header*/
+
+/*cores que estao sendo usadas*/
+  #DFB6B2
+  #042440
+  #959EC9
+  #673772
+  #b95987
+  #1bd6cd
+}
+#menu-nav ul li{
+  list-style: none;
+  display: inline-flex; /*coloca tudio em uma linha unica */
+  padding-right: 40px;
+}
+
+#menu-nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(243, 234, 234);
+  padding: 8px;
+  transition: 0.4s ease-in-out;
+  border-radius: 5px;
+  font-family: "Barlow", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#menu-nav ul li a:hover{
+  color:rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+#slideshowImage1{
+  height: 270px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+#slideshowImage2{
+  height: 270px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+#slideshowImage3{
+  height: 270px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+#slideshowImage4{
+  height: 270px;
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 6px;
+  justify-content:flex-start  ;
+}
+#bikecity{
+  font-family: "Barlow", sans-serif;
+  text-decoration: unset;
+  font-weight: 500;
+  font-size: 50px;
+  padding-left: 10px;
+  color: white ;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+#btn-color{
+  padding: 5px;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  border-radius: 4px;
+}
+body{
+  background-color: #a4cac5;
+  height: 100vh;
+  width: 100%;
+}
+#tema{
+  width: 30px;
+  height: 20px;
+}
+main{
+  padding-top: 150px;
+}
+#bike{
+  align-items: center;
+  justify-content: center;
+}
+#imagens-produto{
+  height: 100px;
+  width: auto;
+}
+#produto{
+  display: grid;
+  width: 350px;
+  margin-left: 60px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  border: solid #62717e 3px;
+  border-radius: 15px;
+  overflow:auto;
+  padding: 20px 20px 30px 40px;
+}
+#todos-produtos{
+  justify-content: space-between;
+}
+#titulo-produtos{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: underline;
+  font-family: "Barlow", sans-serif;
+  font-size: 60px;
+  color: #62717e;
+}
+.button{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 20%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #042440;
+  border-radius: 5px;
+}
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+#usuario{
+  margin-left: 30px;
+}
+#senha{
+  margin-left: 33px;
+}
+#login{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formulario-login{
+  width: 500px;
+  background-color: #042440;
+  padding: 40px;
+  border-radius: 10px;
+  color: #fdfdfd;
+  font-variant:inherit;
+  padding-right: 50px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  font-family: "Barlow", sans-serif;
+  padding-left: 20px;
+  font-size: 18px ;
+  background-color: #062d50;
+  border: 1px solid;
+}
+#btn-login{
+  margin-top: 25px;
+  margin-left: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 4px ;
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+  background-color:#511375 ;
+  border-style: none;
+}
+#titulo-login{
+  margin-top: 140px;
+  font-family: "Barlow", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+}
+#Login-legend{
+  font-size: 30px;
+  margin-bottom: px;
+  background-color: #050e25;
+  margin: -60px 180px 0 170px;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+}
+#quiz-titulo{
+  margin-top: 180px;
+  font-family: "Barlow", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+}
+#quiz{
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  color:#62717e ;
+  background-color: #042440;
+  border-radius: 8px;
+  font-size: 50px;
+  padding: 35px 60px 35px 60px;
+}
+#quiz-div{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div-resposta{
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  margin-left: 100px;
+}
+#resposta-quiz{
+  width: 1300px;
+  height: 500px;
+}
+#tabela-pontuacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1300px;
+  margin-top: -560px;
+}
+#pontuacao{
+  width: 600px;
+  height: 300px;
+}
+#formulario-contato{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+}
+#contato-titulo{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 70px;
+}
+#contato-texto{
+  font-size: 30px;
+  margin-left: 80px;
+  background-color: #050e25;
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+}
+#fieldset{
+  padding: 40px 90px;
+  background-color: #042440;
+  border: solid #042440 2px ;
+  border-radius: 10px;
+  color: #fdfdfd;
+  font-variant:inherit;
+  font-size: 20px;
+}
+#enviar{
+  margin-top: 20px;
+  margin-left: 130px;
+  padding: 6px;
+  border-radius: 4px ;
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+  border-style: none;
+  background-color:#420a63 ;
+}
+#titulo-sobre{
+  margin-top: 180px;
+  font-family: "Barlow", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-size: 120px;
+}
+#sobre-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 200px 0 200px;
+}
+#texto-sobre{
+  font-size: 20px;
+margin: 30px;
+}
