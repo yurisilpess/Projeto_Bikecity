@@ -49,7 +49,7 @@ createSlideshow(["./src/bike3/bike3.png", "./src/bike3/bike3.1.png", "./src/bike
 createSlideshow(["./src/bike4/bike4.png", "./src/bike4/bike4.1.png", "./src/bike4/bike4.2.png", "./src/bike4/bike4.3.png"], "slideshowImage4");
 
 function validar(){
-    //declarando as variaveis
+    // Declarando as variaveis
     let usuario = document.getElementById("usuario").value;
     let senha = document.getElementById("senha").value;
 
