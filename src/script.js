@@ -61,7 +61,7 @@ function validar(){
     }
 }
 function contato(){
-    //declarando as variaveis
+    // Declarando as variaveis
     let UsuarioContato = document.getElementById("idNome").value;
     let Telefone = document.getElementById("idTelefone").value;
     let Email = document.getElementById("idEmail").value;
