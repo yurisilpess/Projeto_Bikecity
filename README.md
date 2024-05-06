@@ -1,7 +1,3 @@
-<div align="center">
-            <h1>Website da BikeCity</h1>  
-</div>
-
 # Créditos / Autores 🖋️
 Este projeto foi desenvolvido por:
 * [Yuri Pessoa](https://github.com/yurisilpess)
